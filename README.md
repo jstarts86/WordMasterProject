@@ -10,4 +10,4 @@
 # 4th Menu
 
 
-<img src='WordAdd.png' width='60%'>
+<img src='Screenshots/WordAdd.png' width='60%'>
