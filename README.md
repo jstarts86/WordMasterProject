@@ -3,7 +3,7 @@
 # 1st Menu
 
 
-<img src='Screenshots/showAll' width='60%'>
+<img src='Screenshots/showAll.png' width='60%'>
 
 
 
