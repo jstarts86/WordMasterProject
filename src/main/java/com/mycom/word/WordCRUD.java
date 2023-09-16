@@ -59,7 +59,6 @@ public class WordCRUD implements ICRUD{
         System.out.println("-----------------------------");
         return idlist;
     }
-
     public void listAll() {
         System.out.println("-----------------------------");
         for(int i = 0; i < list.size(); i++) {
@@ -74,14 +73,14 @@ public class WordCRUD implements ICRUD{
         System.out.print(" => The word you are updating : ");
         String keyword = s.next();
         ArrayList<Integer> idlist = this.listAll(keyword);
-        System.out.print(" => The number you want to update : ");
+        System.out.print(" => The number you  want to update : ");
         int id = s.nextInt(); // must add next line so the enter does not get entered with the meaning
         s.nextLine();
         System.out.print(" => enter the meaning: ");
         String meaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
-        System.out.println("Word has sucessfully updates");
+        System.out.println("Word has been successfully updates");
     }
 
     public void deleteItem() {
@@ -91,12 +90,12 @@ public class WordCRUD implements ICRUD{
         System.out.print(" => The number you want to delete : ");
         int id = s.nextInt(); // must add next line so the enter does not get entered with the meaning
         s.nextLine();
-        System.out.print("=> Are you sure you want to deletse?(Y/n) ");
+        System.out.print("=> Are you sure you want to delete?(Y/n) ");
 
         String ans = s.next();
         if(ans.equalsIgnoreCase("y")) {
             list.remove((int)idlist.get(id-1));
-            System.out.println("Sucessfully Deleted");
+            System.out.println("Successfully Deleted");
         } else
             System.out.println("Canceled Successfully");
     }

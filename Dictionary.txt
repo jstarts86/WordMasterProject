@@ -1,6 +1,5 @@
 3|superintendent| someone who is very important in schools
 1|electric| something that is exciting
-2|equipment| tools
 1|pool| water square
 1|formerly| past
 1| Genesis|Foolish silly girl
