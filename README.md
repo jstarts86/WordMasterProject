@@ -1,5 +1,9 @@
 # WordMasterProject
 
+# 0 Menu
+
+<img src='Screenshots/exit.png' width='60%'>
+
 # 1st Menu
 
 

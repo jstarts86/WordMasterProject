@@ -14,7 +14,7 @@ public class WordManager {
                         "5. 단어 수정 (Edit a word)\n" +
                         "6. 단어 삭재 (Delete a word)\n" +
                         "7. 파일 저장 (Save a file)\n" +
-                        "8. 나가기 (Exit)\n" +
+                        "0. 나가기 (Exit)\n" +
                         "***************************\n" +
                         "=> 원하는 매뉴는?\n"
 
@@ -29,8 +29,12 @@ public class WordManager {
         wordCRUD.loadFile();
         while(true) {
             int menu = selectMenu();
-            if(menu == 0) break;
-            if(menu == 4) {
+            if(menu == 0) {
+                System.out.println("Program finished");
+                break;
+
+            }
+            else if(menu == 4) {
                 wordCRUD.addItem();
             }
             else if(menu == 1) {
